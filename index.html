@@ -46,15 +46,15 @@
 
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <nav id="main-navbar" class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
             <!-- Text Logo - Use this if you don't have a graphic logo -->
             <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img class="myimg" src="images/ebrains_logos_yellow_green-white.png" alt="alternative"></a>
+            <a class="navbar-brand logo-image" href="https://ebrains.eu/" target="_blank"><img id="eb-logo" class="" src="images/logos/ebrains_logos_yellow_green-white.png" alt="alternative"></a>
 
             <!-- Mobile Menu Toggle Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-awesome fas fa-bars"></span>
                 <span class="navbar-toggler-awesome fas fa-times"></span>
             </button>
@@ -66,11 +66,13 @@
                         <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#objectives">OBJECTIVES</a>
+                        <a class="nav-link page-scroll" href="#objectives">OUR GOAL</a>
                     </li>
+                    <!--
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#news">NEWS</a>
                     </li>
+                    -->
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#ouc">ONLINE USE CASES</a>
                     </li>
@@ -113,8 +115,9 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="text-container">
-                                <p class="eb-title">EBRAINS</p><!--<span id="js-rotating"></span></h1>-->
+                                <p class="p-x-large">EBRAINS</p><!--<span id="js-rotating"></span></h1>-->
                                 <h1>SIMULATION - Cellular Level</h1>
+                                <br>
                                 <br>
                                 <p class="p-heading p-x-large"><span id="js-rotating">Build, Reconstruct, Simulate</span>
                                 <br>data-driven brain models</p>
@@ -134,11 +137,12 @@
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="text-container">
-                            <div class="section-title">OBJECTIVES</div>
-                            <h2>Reconstruct and simulate data-driven scaffold models of brain and brain tissue</h2>
+                            <div class="section-title">OUR GOAL</div>
+                            <h2>
+                                Reconstruct and simulate data-driven scaffold 
+                                models of brain and brain tissue
+                            </h2>
                             <p>
-
-
                             In coordination with the other parts of the HBP, 
                             we have four long-term objectives
                             <ul>
@@ -155,17 +159,13 @@
                                     support community-driven reconstructions and simulations, and comparisons between models based on different tools and approaches.
                                 </li>
                             </ul>
-
-
-
-
                             </p>
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 vertical-center" style="display: flex;align-items: center;">
                         <div class="image-container">
-                            <div class"row">
-                                <img class="img-fluid" src="images/small_img2_2.jpeg" alt="alternative">
+                            <div class="row">
+                                <img class="center-block img-fluid" src="images/small_img2_2.jpeg" alt="alternative">
                             </div>
                         </div> <!-- end of image-container -->
                     </div> <!-- end of col -->
@@ -226,90 +226,25 @@
         </div> <!-- end of cards-1 -->
         <!-- end of description -->
 
-
-
-
-        <!-- News -->
-        <div id="news" class="cards-2">
-            <div class="container">
-                <div class="text-container center-btn-cont">    
-                    <div class="sep-bar sb-green"></div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title">NEWS</div>
-                        <h2>Latest Headlines</h2>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-                <div class="row">
-                    <div class="col-lg-12">
-
-                        <!-- Card -->
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="img-fluid" src="images/services-1.jpg" alt="alternative">
-                            </div>
-                            <div class="card-body">
-                                <h3 class="card-title">Publications</h3>
-                                <p>Find out about our latest scientific publications</p>
-                                <br>
-                            </div>
-                            <div class="button-container">
-                                <a class="btn-solid-reg page-scroll" href="#">READ</a>
-                            </div> <!-- end of button-container -->
-                        </div>
-                        <!-- end of card -->
-
-                        <!-- Card -->
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="img-fluid" src="images/services-2.jpg" alt="alternative">
-                            </div>
-                            <div class="card-body">
-                                <h3 class="card-title">Events</h3>
-                                <p>Meet us at scientific and technological events</p>
-                                <br>
-                            </div>
-                            <div class="button-container">
-                                <a class="btn-solid-reg page-scroll" href="#">PARTICIPATE</a>
-                            </div> <!-- end of button-container -->
-                        </div>
-                        <!-- end of card -->
-
-                        <!-- Card -->
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="img-fluid" src="images/services-3.jpg" alt="alternative">
-                            </div>
-                            <div class="card-body">
-                                <h3 class="card-title">Tools and Services</h3>
-                                <p>Check the lastest tools and services available to the Community</p>
-                            </div>
-                            <div class="button-container">
-                                <a class="btn-solid-reg page-scroll" href="#callMe">RUN</a>
-                            </div> <!-- end of button-container -->
-                        </div>
-                        <!-- end of card -->
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of cards-2 -->
-        <!-- end of news -->
-
         <!-- Online Use Cases  -->
         <div id="ouc" class="counter">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5 col-xl-6">
+                    <div class="col-lg-5 col-xl-6 vertical-center">
                         <div class="image-container">
-                            <img class="img-fluid" src="images/about.jpg" alt="alternative">
+                            <img class="img-fluid center-block" src="images/OUCs.png" alt="alternative">
                         </div> <!-- end of image-container -->
                     </div> <!-- end of col -->
                     <div class="col-lg-7 col-xl-6">
                         <div class="text-container">
                             <div class="section-title">ONLINE USE CASES</div>
                             <h2>Choose The Tools That Better Suit Your Needs</h2>
-                            <p>Online Use Cases (OUCs) are selected procedures that guide the users through the resolution of realistic scientific problems.
+                            <p>Online Use Cases (OUCs) are selected procedures 
+                            that guide the users through the resolution of 
+                            realistic scientific problems. A dedicated 
+                            <a href="https://humanbrainproject.github.io/hbp-sp6-guidebook/">Guidebook</a> 
+                            instructs the users on how to best exploit the
+                            utilities offered by the Platform.
                             <br>
 
                             <ul class="list-unstyled li-space-lg">
@@ -330,21 +265,22 @@
                             <!-- Counter -->
                             <div id="counter">
                                 <div class="cell">
-                                    <div class="counter-value number-count" data-count="30">1</div>
+                                    <div class="counter-value number-count" data-count="43">1</div>
                                     <div class="counter-info">Use<br>Cases</div>
                                 </div>
                                 <div class="cell">
-                                    <div class="counter-value number-count" data-count="12">1</div>
+                                    <div class="counter-value number-count" data-count="31">1</div>
                                     <div class="counter-info">Jupyter<br>Notebooks</div>
                                 </div>
                                 <div class="cell">
-                                    <div class="counter-value number-count" data-count="18">1</div>
+                                    <div class="counter-value number-count" data-count="12">1</div>
                                     <div class="counter-info">Web<br>Applications</div>
                                 </div>
                             </div>
 
-                            <div class="button-container">
-                                <a class="btn-solid-reg page-scroll" href="#callMe">EXPLORE</a>
+                            <div class="text-container center-btn-cont">    
+                                <a class="text-center btn-solid-reg page-scroll" 
+                                    href="online-use-cases.html">EXPLORE</a>
                             </div> <!-- end of button-container -->
                             <!-- end of counter -->
 
@@ -522,80 +458,6 @@
             </div>
         </div> <!-- end of slider -->
         <!-- end of testimonials -->
-
-
-        <!-- Call Me -->
-        <div id="callMe" class="form-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="text-container">
-                            <div class="section-title">CALL ME</div>
-                            <h2 class="white">Have Us Contact You By Filling And Submitting The Form</h2>
-                            <p class="white">You are just a few steps away from a personalized offer. Just fill in the form and send it to us and we'll get right back with a call to help you decide what service package works.</p>
-                            <ul class="list-unstyled li-space-lg white">
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">It's very easy just fill in the form so we can call</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">During the call we'll require some info about the company</div>
-                                </li>
-                                <li class="media">
-                                    <i class="fas fa-square"></i>
-                                    <div class="media-body">Don't hesitate to email us for any questions or inquiries</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div> <!-- end of col -->
-                    <div class="col-lg-6">
-
-                        <!-- Call Me Form -->
-                        <form id="callMeForm" data-toggle="validator" data-focus="false">
-                            <div class="form-group">
-                                <input type="text" class="form-control-input" id="lname" name="lname" required>
-                                <label class="label-control" for="lname">Name</label>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control-input" id="lphone" name="lphone" required>
-                                <label class="label-control" for="lphone">Phone</label>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control-input" id="lemail" name="lemail" required>
-                                <label class="label-control" for="lemail">Email</label>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <select class="form-control-select" id="lselect" required>
-                                    <option class="select-option" value="" disabled selected>Interested in...</option>
-                                    <option class="select-option" value="Off The Ground">Off The Ground</option>
-                                    <option class="select-option" value="Accelerated Growth">Accelerated Growth</option>
-                                    <option class="select-option" value="Market Domination">Market Domination</option>
-                                </select>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group checkbox white">
-                                <input type="checkbox" id="lterms" value="Agreed-to-Terms" name="lterms" required>I agree with Aria's stated <a class="white" href="privacy-policy.html">Privacy Policy</a> and <a class="white" href="terms-conditions.html">Terms & Conditions</a>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" class="form-control-submit-button">CALL ME</button>
-                            </div>
-                            <div class="form-message">
-                                <div id="lmsgSubmit" class="h3 text-center hidden"></div>
-                            </div>
-                        </form>
-                        <!-- end of call me form -->
-
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of form-1 -->
-        <!-- end of call me -->
-
 
 
         <!-- Project Lightboxes -->
@@ -788,6 +650,9 @@
         <!-- Team -->
         <div id="whoWeAre" class="basic-2">
             <div class="container">
+                <div style="text-align:right" class="text-container center-btn-cont">    
+                    <div class="sep-bar sb-green"></div>
+                </div>
                 <div class="row">
                     <div class="col-lg-12">
                         <h2>Who We Are</h2>
@@ -843,6 +708,9 @@
         <!-- Contact -->
         <div id="contact" class="form-2">
             <div class="container">
+                <div style="text-align:right" class="text-container center-btn-cont">    
+                    <div class="sep-bar sb-green"></div>
+                </div>
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="text-container">
@@ -852,15 +720,12 @@
                             <ul class="list-unstyled li-space-lg">
                                 <li><i class="fas fa-envelope"></i><a href="mailto:support@ebrains.eu">support@ebrains.eu</a></li>
                             </ul>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <br>
+                        <div class="text-container">
                             <h3>Follow Us On Social Media</h3>
-                            <!--
-                                <span class="fa-stack">
-                                <a href="https://www.facebook.com/humanbrainproj/" target="_blank">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                                </a>
-                                </span>
-                            -->
                             <span class="fa-stack">
                                 <a href="https://twitter.com/ebrains_eu" target="_blank">
                                     <span class="hexagon"></span>
@@ -886,77 +751,22 @@
         <div class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="offset-6 col-md-6">
                         <div class="text-container about">
-                            <h4>Few Words About Aria</h4>
-                            <p class="white">We're passionate about delivering the best business growth services for companies just starting out as startups or industry players that have established their market position a long tima ago.</p>
-                        </div> <!-- end of text-container -->
-                    </div> <!-- end of col -->
-                    <div class="col-md-2">
-                        <div class="text-container">
-                            <h4>Links</h4>
-                            <ul class="list-unstyled li-space-lg white">
-                                <li>
-                                    <a class="white" href="#your-link">startupguide.com</a>
-                                </li>
-                                <li>
-                                    <a class="white" href="terms-conditions.html">Terms & Conditions</a>
-                                </li>
-                                <li>
-                                    <a class="white" href="privacy-policy.html">Privacy Policy</a>
-                                </li>
-                            </ul>
-                        </div> <!-- end of text-container -->
-                    </div> <!-- end of col -->
-                    <div class="col-md-2">
-                        <div class="text-container">
-                            <h4>Tools</h4>
-                            <ul class="list-unstyled li-space-lg">
-                                <li>
-                                    <a class="white" href="#your-link">businessgrowth.com</a>
-                                </li>
-                                <li>
-                                    <a class="white" href="#your-link">influencers.com</a>
-                                </li>
-                                <li class="media">
-                                    <a class="white" href="#your-link">optimizer.net</a>
-                                </li>
-                            </ul>
-                        </div> <!-- end of text-container -->
-                    </div> <!-- end of col -->
-                    <div class="col-md-2">
-                        <div class="text-container">
-                            <h4>Partners</h4>
-                            <ul class="list-unstyled li-space-lg">
-                                <li>
-                                    <a class="white" href="#your-link">unicorns.com</a>
-                                </li>
-                                <li>
-                                    <a class="white" href="#your-link">staffmanager.com</a>
-                                </li>
-                                <li>
-                                    <a class="white" href="#your-link">association.gov</a>
-                                </li>
-                            </ul>
+                            <h4>Acknowledgments</h4>
+                            <p class="white">
+                            Copyright © 2020 Human Brain Project. All Rights Reserved. 
+                            <br>
+                            This project is supported by the European Union 
+                            FP7-604102 (THE HUMAN BRAIN PROJECT),
+                            as well as EU grant agreement no. 945539 (HBP SGA3).
+                            </p>
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
         </div> <!-- end of footer -->  
         <!-- end of footer -->
-
-
-        <!-- Copyright -->
-        <div class="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p class="p-small">Copyright © 2020 <a href="https://inovatik.com">Template by Inovatik</a></p>
-                    </div> <!-- end of col -->
-                </div> <!-- enf of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of copyright --> 
-        <!-- end of copyright -->
 
 
         <!-- Scripts -->

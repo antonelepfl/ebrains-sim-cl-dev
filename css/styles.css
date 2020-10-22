@@ -48,13 +48,14 @@ Colors:
 /******************************/
 
 /* LLB style starts */
-.eb-title {
-	font: 700 2.125rem/2.625rem "Open Sans", sans-serif;
-    color: white;
+
+.vertical-center {
+    display: flex;
+    align-items: center;
 }
 
 .p-x-large {
-	font: 600 2.125rem/2.625rem "Open Sans", sans-serif;
+    font: 700 2.125rem/2.625rem "Open Sans", sans-serif;
     color: white;
 }
 
@@ -704,7 +705,7 @@ input[type='checkbox'] {
 	padding-bottom: 0.375rem;
 	background-color: #113448;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-	font: 600 0.875rem/0.875rem "Open Sans", sans-serif;
+	font: 500 0.95rem/0.95rem "Open Sans", sans-serif;
 	transition: all 0.2s;
 }
 
@@ -761,7 +762,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-toggle:focus { /* removes dropdown outline on focus  */
-	outline: "img-fluid"0;
+	outline: "img-fluid";
 }
 
 .navbar-custom .dropdown-menu {
@@ -908,8 +909,8 @@ input[type='checkbox'] {
 /*     06. Description     */
 /***************************/
 .cards-1 {
-	padding-top 1.5rem;
-	padding-bottom: 1.5rem;
+	padding-top: 1.5rem; /*3rem;*/
+	padding-bottom: 1.3rem; /*2.875rem;*/
 }
 
 .cards-1 .card {
@@ -954,8 +955,8 @@ input[type='checkbox'] {
 /*     07. Services     */
 /************************/
 .cards-2 {
-	padding-top: 1.5rem;	
-	padding-bottom: 1.5rem;	
+	padding-top: 2.0rem;/*6.625rem;*/
+	padding-bottom: 1.25rem;	
 	background-color: #fbfbfb;
 }
 
@@ -1232,8 +1233,8 @@ input[type='checkbox'] {
 /*     10. Testimonials     */
 /****************************/
 .slider {
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
+	padding-top: 2.1rem; /*6.375rem;*/
+	padding-bottom: 3.5rem; /*6.5rem;*/
 	background-color: #fbfbfb;
 }
 
@@ -1548,8 +1549,8 @@ input[type='checkbox'] {
 /*     14. Team     */
 /********************/
 .basic-2 {
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
+	padding-top: 20.5; /*6.375rem;*/
+	padding-bottom: 0.25rem; /*3.375rem;*/
 	background-color: #fbfbfb;
 	text-align: center;
 }
@@ -1632,8 +1633,8 @@ input[type='checkbox'] {
 /*     15. About     */
 /*********************/
 .counter {
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
+	padding-top: 5.0rem;/*6.875rem;*/
+	padding-bottom: 1.5rem; /* 5.25rem;*/
 }
 
 .counter .image-container {
@@ -1697,8 +1698,8 @@ input[type='checkbox'] {
 /*     16. Contact     */
 /***********************/
 .form-2 {
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
+	padding-top: 1.15rem; /*6.625rem;*/
+	padding-bottom: 1.5rem; /*5.625rem;*/
 	background-color: #fbfbfb;
 }
 
@@ -1941,7 +1942,7 @@ a:hover.back-to-top {
         padding: 0.375rem 1.5rem 0.375rem 2rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 		background-color: #FFFFFF;
-        animation: fadeDropdown 2.0s;
+        animation: fadeInDown 2s;
 		/*background-color: #113448;*/
 	}
 

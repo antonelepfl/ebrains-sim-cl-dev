@@ -24,9 +24,11 @@
 	/* Navbar Scripts */
 	// jQuery to collapse the navbar on scroll
     $(window).on('scroll load', function() {
-		if ($(".navbar").offset().top > 200) {
+		if ($(".navbar").offset().top > 200 && $("#navbar-toggler-btn").is(':hidden')) {
+			$("#eb-logo").attr("src", "images/logos/ebrains_logos_yellow_green-black.png");
 			$(".fixed-top").addClass("top-nav-collapse");
 		} else {
+			$("#eb-logo").attr("src", "images/logos/ebrains_logos_yellow_green-white.png");
 			$(".fixed-top").removeClass("top-nav-collapse");
 		}
     });
@@ -66,8 +68,8 @@
     /* Card Slider - Swiper */
 	var cardSlider = new Swiper('.card-slider', {
 		autoplay: {
-            delay: 4000,
-            disableOnInteraction: false
+            delay: 3000,
+            disableOnInteraction: false 
 		},
         loop: true,
         navigation: {
