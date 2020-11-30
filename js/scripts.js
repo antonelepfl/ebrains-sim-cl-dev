@@ -24,11 +24,11 @@
 	/* Navbar Scripts */
 	// jQuery to collapse the navbar on scroll
     $(window).on('scroll load', function() {
-		if ($(".navbar").offset().top > 200 && $("#navbar-toggler-btn").is(':hidden')) {
-			$("#eb-logo").attr("src", "images/logos/ebrains_logos_yellow_green-black.png");
+		if ($(".navbar").offset().top > 100 && $("#navbar-toggler-btn").is(':hidden')) {
+			$("#eb-logo").attr("src", "../images/logos/ebrains_logos_yellow_green-black.png");
 			$(".fixed-top").addClass("top-nav-collapse");
 		} else {
-			$("#eb-logo").attr("src", "images/logos/ebrains_logos_yellow_green-white.png");
+			$("#eb-logo").attr("src", "../images/logos/ebrains_logos_yellow_green-white.png");
 			$(".fixed-top").removeClass("top-nav-collapse");
 		}
     });
