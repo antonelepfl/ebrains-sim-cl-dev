@@ -28,6 +28,17 @@
         <link href="../css/swiper.css" rel="stylesheet">
         <link href="../css/magnific-popup.css" rel="stylesheet">
         <link href="../css/styles.css" rel="stylesheet">
+        <style>
+.uc-panel{
+    margin:10px;   
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 3px 8px #AAAAAA;
+}
+        .uc-icons{
+            width:200px;
+        }
+        </style>
 
         <!-- Favicon  -->
         <link rel="icon" href="../images/favicon.png">
@@ -46,84 +57,84 @@
 
 
         <!-- Navbar -->
-		<nav id="main-navbar" class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-			<!-- Text Logo - Use this if you don't have a graphic logo -->
-			<!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
+        <nav id="main-navbar" class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
 
-			<!-- Image Logo -->
-			<a class="navbar-brand logo-image" href="https://ebrains.eu/" target="_blank">
-				<img id="eb-logo" class="" src="../images/logos/ebrains_logos_yellow_green-white.png" alt="alternative">
-			</a>
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="https://ebrains.eu/" target="_blank">
+                <img id="eb-logo" class="" src="../images/logos/ebrains_logos_yellow_green-white.png" alt="alternative">
+            </a>
 
-			<!-- Mobile Menu Toggle Button -->
-			<button id="navbar-toggler-btn" class="navbar-toggler" 
-											type="button" data-toggle="collapse" 
-														  data-target="#navbarsExampleDefault" 
-														  aria-controls="navbarsExampleDefault" aria-expanded="false" 
-																								aria-label="Toggle navigation">
-				<span class="navbar-toggler-awesome fas fa-bars"></span>
-				<span class="navbar-toggler-awesome fas fa-times"></span>
-			</button>
-			<!-- end of mobile menu toggle button -->
+            <!-- Mobile Menu Toggle Button -->
+            <button id="navbar-toggler-btn" class="navbar-toggler" 
+                                            type="button" data-toggle="collapse" 
+                                                          data-target="#navbarsExampleDefault" 
+                                                          aria-controls="navbarsExampleDefault" aria-expanded="false" 
+                                                                                                aria-label="Toggle navigation">
+                <span class="navbar-toggler-awesome fas fa-bars"></span>
+                <span class="navbar-toggler-awesome fas fa-times"></span>
+            </button>
+            <!-- end of mobile menu toggle button -->
 
-			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link page-scroll" href="index.html">HOME 
-							<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link page-scroll" href="index.html#objectives"
-														title="OBJECTIVES" alt="OBJECTIVES">
-							OBJECTIVES
-						</a>
-					</li>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="index.html">HOME 
+                            <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="index.html#objectives"
+                                                        title="OBJECTIVES" alt="OBJECTIVES">
+                            OBJECTIVES
+                        </a>
+                    </li>
                     <!-- Dropdown Menu Online Use Cases-->          
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle page-scroll" 
-                            href="#ouc" id="navbarDropdown" role="button" 
-                            aria-haspopup="true" aria-expanded="false" title="Online Use Cases" alt="Online Use Cases">
+                           href="#ouc" id="navbarDropdown" role="button" 
+                                                           aria-haspopup="true" aria-expanded="false" title="Online Use Cases" alt="Online Use Cases">
                             ONLINE USE CASES</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="online-use-cases.html"><span class="item-text">EXPLORE ALL</span></a>
                         </div>
                     </li>
                     <!-- end of dropdown menu online use cases -->
-					<li class="nav-item">
-						<a class="nav-link page-scroll" href="index.html#live-papers"
-														title="LIVE PAPERS" alt="LIVE PAPERS">
-							LIVE PAPERS
-						</a>
-					</li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="index.html#live-papers"
+                                                        title="LIVE PAPERS" alt="LIVE PAPERS">
+                            LIVE PAPERS
+                        </a>
+                    </li>
 
-                <!-- Dropdown Menu -->          
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" 
-                        href="index.html#monitors" id="navbarDropdown" role="button" 
-                        aria-haspopup="true" aria-expanded="false">MONITORS</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" target="_blank" href="https://bspmonitors.cineca.it/hpc-monitor/#"><span class="item-text">HPC MONITOR</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" target="_blank" href="https://bspmonitors.cineca.it/bsp-monitor"><span class="item-text">CLSP MONITOR</span></a>
-                    </div>
-                </li>
-                <!-- end of dropdown menu -->
-					<li class="nav-item">
-						<a class="nav-link page-scroll" href="index.html#whoWeAre"
-														title ="TEAM" alt="TEAM">
-							TEAM
-						</a>
-					</li>
+                    <!-- Dropdown Menu -->          
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle page-scroll" 
+                           href="index.html#monitors" id="navbarDropdown" role="button" 
+                                                                          aria-haspopup="true" aria-expanded="false">MONITORS</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" target="_blank" href="https://bspmonitors.cineca.it/hpc-monitor/#"><span class="item-text">HPC MONITOR</span></a>
+                            <div class="dropdown-items-divide-hr"></div>
+                            <a class="dropdown-item" target="_blank" href="https://bspmonitors.cineca.it/bsp-monitor"><span class="item-text">CLSP MONITOR</span></a>
+                        </div>
+                    </li>
+                    <!-- end of dropdown menu -->
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="index.html#whoWeAre"
+                                                        title ="TEAM" alt="TEAM">
+                            TEAM
+                        </a>
+                    </li>
 
-					<li class="nav-item">
-						<a class="nav-link page-scroll" href="index.html#contact"
-														title="CONTACTS" alt="CONTACTS">
-							CONTACTS
-						</a>
-					</li>
-				</ul>
-			</div>
-		</nav> <!-- end of navbar -->
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="index.html#contact"
+                                                        title="CONTACTS" alt="CONTACTS">
+                            CONTACTS
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav> <!-- end of navbar -->
         <!-- end of navbar -->
 
         <!-- Header -->
@@ -162,27 +173,129 @@
                         <div class="text-container">
                             <h3>Online Use Cases</h3>
                             <!--Accordion wrapper-->
-                            <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
-                                <!-- Accordion card -->
+                            <!--
+                                <p><a target="_blank" href="https://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Flbologna%2Fsynaptic_platicity&urlpath=lab%2Ftree%2Fsynaptic_platicity%2FSynaptic+plasticity.ipynb&branch=master"><img class="center-block img-fluid" src="../images/synaptic_plasticity.png"></a></p>
+                            -->
+                            <div class="accordion" id="accordionExample">
                                 <div class="card">
-                                    <!-- Card header -->
-                                    <div class="card-header" role="tab" id="headingOne1">
-                                        <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
-                                                                                                                  aria-controls="collapseOne1">
-                                            <h5 class="mb-0">
-                                                Trace Analysis <i class="fas fa-angle-down rotate-icon"></i>
-                                            </h5>
-                                        </a>
+                                    <div class="card-header" id="headingOne">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Trace Analysis
+                                            </button>
+                                        </h2>
                                     </div>
 
-                                    <!-- Card body -->
-                                    <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
-                                        <div class="card-body">
-                                            <p><a target="_blank" href="https://hbp-bsp-hhnb.cineca.it/efelg/"><img class="center-block img-fluid" src="../images/feature_extraction.png"></a></p>
-                                            <p><a target="_blank" href="https://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Flbologna%2Fsynaptic_platicity&urlpath=lab%2Ftree%2Fsynaptic_platicity%2FSynaptic+plasticity.ipynb&branch=master"><img class="center-block img-fluid" src="../images/synaptic_plasticity.png"></a></p>
-                                        </div>
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <a href="https://hbp-bsp-hhnb.cineca.it/efelg/" target="_blank" style="text-decoration:none">
+                                            <div class="card-body">
+                                                <!-- Feature Extraction start -->
+                                                <div class="uc-panel">
+                                                    <div class="row">
+                                                        <div class="col-lg-3" style="">
+                                                            <img class="uc-icons" src="https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/features.png" >
+                                                        </div>
+                                                            <div class="col-lg-9">
+                                                                <h4>Feature Extraction</h4>
+                                                                <br>
+                                                                Extracts electrophysiological features; traces can be from the EBRAINS KG or uploaded
+                                                                <br>
+                                                                Contributors: Luca Leonardo Bologna (lucaleonardo.bologna@cnr.it), Roberto Smiriglia (roberto.smiriglia@ibf.cnr.it)
+                                                            </div>
+                                                    </div>
+                                                    <!-- Feature Extraction end -->
+                                                </div>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Single Cell In Silico Experiments
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <a href="https://blue-naas-bsp-epfl.apps.hbp.eu/#/model/dSTUT214_L6_NBC_6_tkb050507a1_ch1_bc_b_yw_60x_1_-_Scale_x1.000_y0.975_z1.000_-_Clone_4" target="_blank" style="text-decoration:none">
+                                            <div class="card-body">
+                                                <!-- BlueNaas start -->
+                                                <div class="uc-panel">
+                                                    <div class="row">
+                                                        <div class="col-lg-3" style="">
+                                                            <img class="uc-icons" src="https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/l5pc_release_responses-eps.jpg" >
+                                                        </div>
+                                                            <div class="col-lg-9">
+                                                                <h4>Single cell in silico experiments under current clamp</h4>
+                                                                <br>
+                                                                Contributors: Genrich Ivaska (genrich.ivaska@epfl.ch)
+                                                            </div>
+                                                    </div>
+                                                    <!-- BlueNaas end -->
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Small Circtuit start -->
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                In silico experiments of a small circuit extracted from large scale detailed network models
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <a href="https://pair-recording-bsp-epfl.apps.hbp.eu/circuits/rat-ca1" target="_blank" style="text-decoration:none">
+                                            <div class="card-body">
+                                                <div class="uc-panel">
+                                                    <div class="row">
+                                                        <div class="col-lg-3" style="">
+                                                            <img class="uc-icons" src="https://raw.githubusercontent.com/antonelepfl/testvue/master/imgtest/pair_recording.png" >
+                                                        </div>
+                                                            <div class="col-lg-9">
+                                                                <h4>In silico experiments of a small circuit extracted from large scale detailed network models</h4>
+                                                                <br>
+                                                                Contributors: Stefano Antonel (stefano.antonel@epfl.ch)
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Small Circuit end -->
+                                <!-- Small Circtuit start -->
+                                <div class="card">
+                                    <div class="card-header" id="headingFour">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                Brain Area Circuit InSilico Experiments
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                        <a href="https://simulation-launcher-bsp-epfl.apps.hbp.eu/index.html#/circuits/hippo_hbp_sa_full_ca1" target="_blank" style="text-decoration:none">
+                                            <div class="card-body">
+                                                <div class="uc-panel">
+                                                    <div class="row">
+                                                        <div class="col-lg-3" style="">
+                                                            <img class="uc-icons" src="https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/hippocampusConnections.png">
+                                                        </div>
+                                                            <div class="col-lg-9">
+                                                                <h4>Hippocampus</h4>
+                                                                <br>
+                                                                Contributors: Stefano Antonel (stefano.antonel@epfl.ch)
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Small Circuit end -->
                             </div>
                         </div>
                     </div>
@@ -200,7 +313,6 @@
             </div> <!-- end of container -->
         </div> <!-- end of copyright --> 
         <!-- end of copyright -->
-
 
         <!-- Scripts -->
         <script src="../js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
