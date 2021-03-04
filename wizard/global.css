@@ -1,0 +1,91 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+
+.custom-search.shaped-outlined input.mdc-text-field__input {
+	padding: 16px 20px;
+}
+
+.custom-search.shaped-outlined .mdc-notched-outline .mdc-notched-outline__leading {
+	border-radius: 28px 0 0 28px;
+	width: 28px;
+}
+.custom-search.shaped-outlined .mdc-notched-outline .mdc-notched-outline__trailing {
+	border-radius: 0 28px 28px 0;
+}
+
+
+.custom-section-header {
+	display: flex;
+}
+.custom-section-header .go-back-btn {
+	align-self: center;
+	cursor: pointer;
+}
+.custom-section-header .go-back-btn i {
+	font-size: 30px;
+}
+.custom-section-header .page-header-title {
+	flex-grow: 1;
+	text-align: center;
+}
