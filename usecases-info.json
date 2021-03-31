@@ -41,7 +41,7 @@
         },
         "dataProtected": true,
         "notebookPath": "production_notebooks/traceanalysis/Synaptic events fitting.ipynb",
-        "notebookRepoUrl": "ss",
+        "notebookRepoUrl": "https://github.com/antonelepfl/usecases&branch=dev",
         "tutorial": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/web-resources-bsp/bsp-video-tutorials/SynapticEventsFitting/index.html"
       }
     ]
