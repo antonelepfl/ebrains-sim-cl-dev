@@ -92,7 +92,7 @@
         "tutorial": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/web-resources-bsp/bsp-video-tutorials/MorphologyAnalysis/index.html",
         "chooseModel": true,
         "notebookPath": "production_notebooks/morphology/Morphology Analysis.ipynb",
-        "notebookRepoUrl": ""
+        "notebookRepoUrl": "https://github.com/antonelepfl/usecases&branch=dev"
       }
     ]
   },
