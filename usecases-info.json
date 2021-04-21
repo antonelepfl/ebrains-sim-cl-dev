@@ -29,7 +29,7 @@
         "experience": ["power"],
         "access": ["hpc"],
         "maturity": ["beta"],
-        "disabled": false,
+        "disabled": true,
         "implementation": "ipynb",
         "contributors": [
           {"name": "Carmen Alina Lupascu", "email": "carmen.lupascu@pa.ibf.cnr.it"},
@@ -67,10 +67,52 @@
         },
         "externalUrl": "https://ebrains.eu/service/hodgkin-huxley-neuron-builder",
         "tutorial": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/web-resources-bsp/bsp-video-tutorials/HodgkinHuxleyNeuronBuilder/index.html"
+      },
+      {
+        "title": "Build your own single hippocampal cell model using HBP data",
+        "description": "Use the BluePyOpt to run an optimization choosing from HBP data for morphology, channel kinetics, features, and parameters.",
+        "contributors": [
+          {"name": "Carmen Alina Lupascu", "email": "carmen.lupascu@pa.ibf.cnr.it"},
+          {"name": "Roberto Smiriglia", "email": "roberto.smiriglia@pa.ibf.cnr.it"},
+          {"name": "Luca Leonardo Bologna", "email": "lucaleonardo.bologna@cnr.it"}
+        ],
+        "maturity": ["beta"],
+        "experience": ["power"],
+        "access": null,
+        "disabled": false,
+        "implementation": "ipynb",
+        "picture": {
+          "src": "https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/objectives.png"
+        },
+        "dataProtected": false,
+        "chooseModel": true,
+        "notebookPath": "BuildOwn Single HippoCell - Analysis.ipynb",
+        "notebookRepoUrl": "https://github.com/eb-cls-jn/BuildOwn_Single_HippoCell&branch=main"
+      },
+      {
+        "title": "Rebuild an existing single hippocampal cell model",
+        "description": "Use the BluePyOpt to re-run an optimization with your choices for the parameters range",
+        "contributors": [
+          {"name": "Carmen Alina Lupascu", "email": "carmen.lupascu@pa.ibf.cnr.it"},
+          {"name": "Roberto Smiriglia", "email": "roberto.smiriglia@pa.ibf.cnr.it"},
+          {"name": "Luca Leonardo Bologna", "email": "lucaleonardo.bologna@cnr.it"}
+        ],
+        "maturity": ["beta"],
+        "experience": ["power"],
+        "access": null,
+        "disabled": false,
+        "implementation": "ipynb",
+        "picture": {
+          "src": "https://raw.githubusercontent.com/antonelepfl/usecases/dev/src/assets/images/objectives.png"
+        },
+        "dataProtected": false,
+        "chooseModel": true,
+        "notebookPath": "Rebuild Single HippoCell - Analysis.ipynb",
+        "notebookRepoUrl": "https://github.com/eb-cls-jn/Rebuild_Single_HippoCell&branch=main"
       }
     ]
   },
-  { 
+  {
     "title": "Morphology",
     "id": "morphology",
     "usecases": [
@@ -91,12 +133,12 @@
         "dataProtected": false,
         "tutorial": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/web-resources-bsp/bsp-video-tutorials/MorphologyAnalysis/index.html",
         "chooseModel": true,
-        "notebookPath": "production_notebooks/morphology/Morphology Analysis.ipynb",
-        "notebookRepoUrl": "https://github.com/antonelepfl/usecases&branch=dev"
+        "notebookPath": "Morphology_Analysis.ipynb",
+        "notebookRepoUrl": "https://github.com/eb-cls-jn/Morphology&branch=master"
       }
     ]
   },
-  { 
+  {
     "title": "Single Cell InSilico Experiments",
     "id": "singlecellinsilicoexperiments",
     "usecases": [
